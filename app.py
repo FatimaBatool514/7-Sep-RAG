@@ -61,7 +61,7 @@ if uploaded_file and groq_api_key:
     # You can change model_name to llama-3.3-70b-versatile or mistral-saba-24b as needed
     llm = ChatGroq(
         groq_api_key=groq_api_key,
-        model_name="llama-3.3-70b-versatile",
+        model_name="openai/gpt-oss-20b",
         temperature=0.2
     )
 
