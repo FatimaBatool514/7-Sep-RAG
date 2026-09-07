@@ -1,7 +1,7 @@
 streamlit
-langchain
-langchain-classic
+langchain==0.3.1
 langchain-community
+langchain-core
 langchain-groq
 langchain-huggingface
 faiss-cpu
